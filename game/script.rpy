@@ -390,7 +390,7 @@ label Town_Options:
         "Buy more supplies":
             $ Jane += 1
             jump Strip_Mall_Fun
-        "Collect fish from the creak":
+        "Collect fish from the creek":
             $ Cash += 1
             jump Creek_Shenanigans
             
@@ -422,14 +422,46 @@ label Strip_Mall_Fun:
         mc "Thanketh thee"
     
     if Jane == 2:
-        "I have no clue how to write girls"
-        "But basically Jane is supposed to intorduce you to her friend circle"
-        "a new system appears so Vampy can "farm" people more easily"
+        show VampySprite at left
+        
+        "Ruffle Ruffle"
+        
+        mc "Nay. What didst Mrs Doe asketh f'r again?"
+        
+        show JaneD at right 
+        
+        janed "Hiya QT! Need help with anything?"
+        
+        mc "Nay prithee leaveth"
+        
+        janed "Fine... but before I go, my friends and I were gonna have a party tonight. Would you like to come?"
+        
+        mc "S'rry but i has't oth'r plans"
         
     if Jane == 3:
-        "I have no clue how to write girls"
-        "But basically Jane is supposed to intorduce you to her friend circle"
-        "a new system appears so Vampy can "farm" people more easily"
+        show VampySprite at left
+        
+        "Ruffle Ruffle"
+        
+        mc "Ah this one looks valorous"
+        
+        show JaneD at right 
+        
+        janed "Oh you're back. Why would a QT like you visit a store like this so often?"
+        
+        mc "Prithee, ms dough, mine own nameth is [MCname], prithee useth it"
+        
+        janed "Oh sorry about that. Um...so I guess I've been alittle annoying...Would you mind having lunch with me?"
+        
+        mc "..."
+        
+        janed "I'll pay for it..."
+        
+        mc "Fine, taketh me out to lunch"
+        
+        janed "Yay!"
+        
+        "You and Jane are now friends!"
     
     jump Next_Morning
 
