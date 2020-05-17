@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 346: expected statement.
-    Doe += 1
-        ^
-
-File "game/script.rpy", line 397: expected ':' not found.
-    menu
-        ^
+File "game/Chapter_Two.rpy", line 221: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    janed "Oh hi there! You're John's new worker aren't you? What can I help you with?"
+    ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat May 09 12:23:06 2020
+Sun May 17 02:04:17 2020
