@@ -142,6 +142,9 @@ label Chapter1_End_Cash_Dead:
 
 
 label Chapter_Two_Morning:
+    $ chap_two_days += 1
+    if chap_two_days == 3:
+        jump end
     scene Farmhouse_Day
     "You wake up feeling refreshed. What do you do?"
 

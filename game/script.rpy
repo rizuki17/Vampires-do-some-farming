@@ -587,7 +587,8 @@ label John_Dies:
     $ jd_dead = True
     $ janeD_dead = False
     $ jc_dead = False
-    
+    $ chap_two_days = 0
+
     jump Chapter1_End_John_Dead
 
 label Jane_Dies:
@@ -596,6 +597,7 @@ label Jane_Dies:
     $ jd_dead = False
     $ janeD_dead = True
     $ jc_dead = False
+    $ chap_two_days = 0
 
     jump Chapter1_End_Jane_Dead
 
@@ -605,6 +607,7 @@ label Cash_Dies:
     $ jd_dead = False
     $ janeD_dead = False
     $ jc_dead = True
+    $ chap_two_days = 0
 
     jump Chapter1_End_Cash_Dead
     return
